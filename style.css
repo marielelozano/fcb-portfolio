@@ -31,9 +31,16 @@ body {
 }
 
 #landing {
-	height: 80vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.carousel-item img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
 }
